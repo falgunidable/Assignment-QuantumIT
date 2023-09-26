@@ -1,0 +1,4 @@
+.nav-item.active {
+  border-left: 3px solid white;
+  /* Add any other styles you want for active items */
+}
