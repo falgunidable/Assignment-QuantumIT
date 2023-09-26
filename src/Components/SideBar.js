@@ -16,17 +16,16 @@ const SideBar = () => {
       </button>
       <ul className="nav nav-pills flex-column mt-5">
         <li className={`nav-item fs-5 ${activeNavItem === 0 ? "active" : ""}`}>
-          <a
-            href="#"
-            className="nav-link text-white"
+          <button
+            className="nav-link text-white ms-3"
             onClick={() => handleItemClick(0)}
           >
             <i class="bi bi-grid"></i>
-          </a>
+          </button>
         </li>
         <li className={`nav-item fs-5 ${activeNavItem === 1 ? "active" : ""}`}>
           <button
-            className="nav-link text-white"
+            className="nav-link text-white ms-3"
             onClick={() => handleItemClick(1)}
           >
             <i class="bi bi-people"></i>
@@ -34,7 +33,7 @@ const SideBar = () => {
         </li>
         <li className={`nav-item fs-5 ${activeNavItem === 2 ? "active" : ""}`}>
           <button
-            className="nav-link text-white"
+            className="nav-link text-white ms-3"
             onClick={() => handleItemClick(2)}
           >
             <i class="bi bi-card-image"></i>
@@ -42,7 +41,7 @@ const SideBar = () => {
         </li>
         <li className={`nav-item fs-5 ${activeNavItem === 3 ? "active" : ""}`}>
           <button
-            className="nav-link text-white"
+            className="nav-link text-white ms-3"
             onClick={() => handleItemClick(3)}
           >
             <i class="bi bi-graph-down"></i>
@@ -50,7 +49,7 @@ const SideBar = () => {
         </li>
         <li className={`nav-item fs-5 ${activeNavItem === 4 ? "active" : ""}`}>
           <button
-            className="nav-link text-white"
+            className="nav-link text-white ms-3"
             onClick={() => handleItemClick(4)}
           >
             <i class="bi bi-folder"></i>
