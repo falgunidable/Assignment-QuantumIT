@@ -12,9 +12,9 @@ import TableContent from "./TableContent";
 
 const RightCards = () => {
   return (
-    <Container>
+    <Container fluid>
       <Row>
-        <Col className="col-auto col-md-4">
+        <Col xs={12} md={4} className="col-auto col-md-4">
           <Card className="p-2 rounded-3 border-0 shadow-sm text-center">
             <Card.Body>
               <Figure>
@@ -47,10 +47,10 @@ const RightCards = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={12} md={8}>
           <Row className="text-center">
             {itenary.map((item, index) => (
-              <Col key={index}>
+              <Col xs={6} md={4} key={index}>
                 <CardTemplate
                   image={item.image}
                   text={item.heading}
