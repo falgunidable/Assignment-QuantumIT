@@ -16,12 +16,13 @@ const SideBar = () => {
       </button>
       <ul className="nav nav-pills flex-column mt-5">
         <li className={`nav-item fs-5 ${activeNavItem === 0 ? "active" : ""}`}>
-          <button
+          <a
+            href="#
             className="nav-link text-white"
             onClick={() => handleItemClick(0)}
           >
             <i class="bi bi-grid"></i>
-          </button>
+          </a>
         </li>
         <li className={`nav-item fs-5 ${activeNavItem === 1 ? "active" : ""}`}>
           <button
